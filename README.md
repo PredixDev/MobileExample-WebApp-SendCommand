@@ -1,9 +1,9 @@
-# MOBILE-ASSET-WEBAPP(v0.1)
-A sample webapp which displays data from asset service.
+# MobileExample-WebApp-SendCommand(v0.1)
+A sample webapp which sends a sample command to backend and displays the response.
 
 ## Configuration
 
-Update `userName` and `assetZoneID` variables in index.html.
+Update `commandRoute` variable in `MobileCommand.js` file to the uri registered using _PM CLI_ tool (ex. `pm add-route <command-route> <processor-url>`) .
 
 ## Installation
 
@@ -14,7 +14,4 @@ pm publish
 ```
 
 ## Usage
-When running on device/simulator it shows three buttons and a text area (in landscape mode atleast).
-* [Refresh] - Sends a request to SDK and gets the asset results and updates text area.
-* [PUT] - TODO: Sends changes wrapped in a command document and command-processor will update it in asset service.
-* [Watch Changes] - Start watching for changes on asset document and update the text area with new results.
+Press _Send Command_ button once to see name of logged-in user. Tap again to send a test command. Status area and text area displays what it is doing.
