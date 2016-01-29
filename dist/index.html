@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> PM Example</title>
+	<style>
+	div.scroll {
+		overflow: scroll;
+		max-height: 600px;
+		width: 90%;
+		position: absolute;
+		top: 40px;
+		margin: 10px 20px;
+		color: orange;
+		border-style: dotted;
+		border-color: cyan;
+	}
+	.textarea {
+		width: 98%;
+	}
+	.button {
+		background-color: cyan;
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 20px;
+	}
+	</style>
+	<script src="MobileCommand.js"></script>
+
+</head>
+
+<body>
+	<input type="button" class="button" value="Send Command" onClick="command.sendCommandToRouter(document.getElementById('idtextarea'),document.getElementById('idstatus'))">
+
+	<div  class="scroll" >
+		<div id="idstatus"> Press 'Send COMMAND to send a command document to command processor.' </div>
+		<textarea id="idtextarea" class="textarea" rows="15" cols="100">
+
+		</textarea>
+	</div>
+
+
+</body>
+</html>
