@@ -2,7 +2,13 @@
 This sample web app sends a command to backend and displays the response.
 
 ## Before You Begin:
-It is assumed that you already have running instances of [_Predix Mobile service_](https://www.predix.io/docs#rae4EfJ6) and pushed your [_command-processor_](https://github.com/PredixDev/MobileExample-Microservice-CommandProcessor) to your CF space (or running on your development system).  
+It is assumed that you already have running instances of [_Predix Mobile service_](https://www.predix.io/docs#rae4EfJ6) and pushed your [_command-processor_](https://github.com/PredixDev/MobileExample-Microservice-CommandProcessor) to your CF space (or running on your development system). 
+
+To get started, follow this documentation:
+* [Get Started with the Mobile Service and Mobile SDK] (https://www.predix.io/docs#rae4EfJ6) 
+* [Running the Predix Mobile Sample App] (https://www.predix.io/docs#EGUzWwcC)
+* [Creating a Mobile Hello World Webapp] (https://www.predix.io/docs#DrBWuHkl) 
+
 
 ## Configuration
 
